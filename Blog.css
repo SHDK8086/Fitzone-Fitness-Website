@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: black;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    color: red;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+
+.logo{
+    width: 160px;
+    margin-right: 1200px;
+    margin-top: -120px;
+    justify-content: left;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+    color: black;
+    text-decoration: underline;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+main {
+    display: flex;
+}
+
+.blog-posts {
+    flex: 3;
+}
+
+.post {
+    background: black;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.post:hover {
+    transform: scale(1.02);
+}
+
+.post img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 300px;
+}
+
+.post h2 {
+    margin-top: 0;
+    color: rgb(238, 69, 26);
+}
+
+.date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.post p {
+    color: white;
+}
+
+.sidebar {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #ff6347;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

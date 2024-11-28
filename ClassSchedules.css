@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: url('https://example.com/fitness-header.jpg') center/cover no-repeat;
+    text-align: center;
+    background-color: black;
+    padding: 80px 20px;
+}
+
+.header-content h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.header-content p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cta-button {
+    background-color: #f04e23;
+    color: #fff;
+    padding: 5px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 50px;
+}
+
+.cta-button:hover {
+    background-color: #d93b1e;
+}
+
+.classes {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.classes h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.classes p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.class-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.class-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 280px;
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.class-item:hover {
+    transform: scale(1.05);
+}
+
+.class-icon {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.class-item h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    color: #f04e23;
+}
+
+.class-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.class-item span {
+    font-size: 0.95em;
+    color: purple;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #f04e23;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-content a:hover {
+    color: #d93b1e;
+}

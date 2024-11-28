@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.admin-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #0c0c0c;
+    color: #fff;
+    padding-top: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h2 {
+    margin-left: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d32f2f;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    margin-left: 260px;
+    padding: 20px;
+    width: calc(100% - 260px);
+}
+
+
+#add-staff {
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    height: 600px;
+}
+
+#add-staff h2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#add-staff label {
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#add-staff input[type="text"],
+#add-staff input[type="date"],
+#add-staff input[type="email"],
+#add-staff input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#add-staff button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+#add-staff button:hover {
+    background-color: rgb(224, 29, 29);
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.edit-btn {
+    background-color: #241e91;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #120c2a; 
+}
+
+.delete-btn {
+    background-color: #f44336; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f; 
+}
+
+.edit-btn, .delete-btn {
+    font-size: 14px;
+    margin: 0 2px;
+}
+
+
+.schedule form {
+    background-color: #0a0a0a;
+    padding: 20px 40px;
+    width: 620px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+}
+
+.schedule h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.schedule label {
+    font-size: 16px;
+    color: #fffefe;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.schedule input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    resize: none;
+}
+
+.schedule input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #dc3545;
+    background-color: #ffffff;
+}
+
+.schedule button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ff4b2b;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.schedule button[type="submit"]:hover {
+    background-color: #d32f2f;
+}
+
+.schedule-mng {
+    width: 114%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.schedule-mng th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.schedule-mng th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

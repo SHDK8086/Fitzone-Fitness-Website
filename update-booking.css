@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.update-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.update-form-container h1 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.update-form-container label {
+    display: block;
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+.update-form-container input[type="text"],
+.update-form-container input[type="email"],
+.update-form-container input[type="tel"],
+.update-form-container input[type="date"],
+.update-form-container select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.update-form-container input[type="text"]:focus,
+.update-form-container input[type="email"]:focus,
+.update-form-container input[type="tel"]:focus,
+.update-form-container input[type="date"]:focus,
+.update-form-container select:focus {
+    border: 1px solid #007bff;
+}
+
+.update-form-container .btn-booking {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b2b;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.update-form-container .btn-booking:hover {
+    background-color: #b62119;
+}
+
+.update-form-container select {
+    appearance: none;
+    background-color: #fff;
+}
+

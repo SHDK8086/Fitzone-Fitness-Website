@@ -1,0 +1,65 @@
+.update-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #0a0a0a;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.update-form-container h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.update-form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.update-form-container input[type="text"],
+.update-form-container select,
+.update-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.update-form-container input::placeholder,
+.update-form-container textarea::placeholder {
+    color: #aaa;
+}
+
+.update-form-container button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ff4b2b;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-form-container button[type="submit"]:hover {
+    background-color: #b62119;
+}
+
+
